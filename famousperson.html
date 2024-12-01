@@ -12,22 +12,45 @@
             background-color: beige;
             display: flex;
             flex-direction: column; /* Stacks elements vertically */
-            justify-content: center;
+            justify-content: top;
             align-items: center;
             height: 50vh;
             font-family: 'Noto Serif JP', serif;
         }
         h1 {
+            position: flex;
             font-size: 2.5rem;
             font-weight: bold;
             color: #333;
+            margin-top: 5rem;
             margin-bottom: 1rem;
         }
             p {
+            margin-left: 10rem;
+            margin-right: 10rem;
             font-size: 1.5rem;
             color: #555;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         
+        }
+        .subtitle {
+            font-size: 1.6rem;
+            color: #666; /* Slightly more important, medium gray */
+            margin: 0.5rem 10rem;
+        }
+        .main-text {
+            font-size: 2.2rem; /* Highlighted text is larger */
+            font-weight: bold;
+            color: #000000; /* Important text in dark color */
+            margin: 1rem 10rem;
+
+        }
+        .sub-text {
+            font-size: 1.3rem; /* Highlighted text is larger */
+            font-weight: lighter;
+            color: #333; /* Important text in dark color */
+            margin: 1rem 10rem;
+            text-align: 120rem; /* Makes text easier to read */
         }
         button {
           position: fixed;
@@ -55,8 +78,21 @@
 <body>
   <body>
     <h1>ライアン・レイノルズ（Ryan Reynolds）</h1>
-    <p>俳優、映画プロデューサー、起業家</p>
+    <p class="subtitle">俳優、映画プロデューサー、きぎょうか</p>
+    <p class="main-text">来歴</p>
+    <p class="sub-text">
+        ライアン・レイノルズはカナダの有名な俳優だ。１９７６年１０月２３日にカナダのバンクーバーで生まれ、１９９１年に『ヒルサイド』というテレビドラマで主演としてデビューした。彼はコメディ映画やアクション映画でとても人気がある。アクション・コメディ映画『デッドプール』（２０１６年）で国際的にちめいどを得、ゴールデングローブ賞の作品賞と主演男優賞にノミネートされた。
+    </p>
+    <p></p>
+    <p class="main-text">代表的な映画</p>
+    <p>「デッドプール (Deadpool)」</p>
+    <p>この映画はスーパーヒーロー映画で、ライアンさんが主人公を演じた。
+        面白いセリフやアクションが多いです。
+    <p>「フリー・ガイ (Free Guy)」</p>
+        <p>
+        この映画では、彼はゲームの中のキャラクターとして主演した。
+        バンクーバーの風景が映画に出ている。</p>
     <div class="buttons">
-      <button><a href="index.html">⬅</a></button>
+      <button><a href="Intropage.html">⬅</a></button>
   </div>
   </body>
